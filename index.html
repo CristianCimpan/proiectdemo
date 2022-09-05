@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazinul Meu</title>
+    <script src="emag.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h2>ZEN</h2>
+            <span>
+                <form>
+                    <label for="search"></label>
+                    <input type="search" id="search" name="searchbar" placeholder="Incepe cautarea">
+                    <button class="search-icon">
+                        <img src="../search-icon-endless-icons-.png">
+                    </button>
+                </form>
+            </span>
+            <div class="butoaneHeader">
+                <div class="optiuni">
+                    <img src="../1946429.png">
+                    <p> Contul meu </p>
+                </div>
+                <div class="optiuni">
+                    <img src="../fav.png">
+
+                    <p> Favorite </p>
+                </div>
+                <div class="optiuni">
+                    <img src="../cosulmeu.png">
+                    <p> Cosul meu</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+    <main>
+        <button class="meniuMobil" onclick="afiseazaMeniu()">
+            <div class="meniuMobil2">
+                <p> Meniu </p>
+            </div>
+        </button>
+        <div class="menu">
+            <a href="#" id="pro">Produse</a>
+            <a href="genius.html">Genius</a>
+            <a href="#">Oferta zilei</a>
+            <a href="#">Card ZenPlus</a>
+            <a href="#">Resigilate</a>
+            <a href="#">Freshful</a>
+            <a href="help.html">Help</a>
+
+
+        </div>
+
+        <div class="meniuLateralMobil">
+            <div class="sideMobil">
+                <button class="butonInapoi" onclick="ascundeSideMenu()">Inapoi</button>
+
+
+                <div class="side_block1" onclick="afiseazaMeniuMobil()">
+
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Laptopuri si accesorii</li>
+                        </ul></a>
+                    </h3>
+                    <p> <a href=" #">Laptopuri</a></p>
+                    <p> <a href=" #">Laptopuri cu Windows</a></p>
+                    <p> <a href=" #">Laptopuri Gaming</a></p>
+                </div>
+
+                <div class="side_block2" onclick="afiseazaMeniuMobil2()">
+                    <h3>
+                        <ul>
+                            <li> <a href=" #">Telefoane mobile si accesorii</li>
+                        </ul></a>
+                    </h3>
+                    <p> <a href=" #">Telefoane mobile</a></p>
+                    <p> <a href=" #">Apple Shop</a></p>
+                    <p> <a href=" #">Xiaomi Shop</a></p>
+                    <p> <a href=" #">Huawe Shop</a></p>
+                </div>
+
+                <div class="side_block4" onclick="afiseazaMeniuMobil4()">
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Laptopuri resigilate</li>
+                        </ul></a>
+                    </h3>
+                    <p> <a href=" #">Laptopuri Asus</a></p>
+                    <p> <a href=" #">Laptopuri Lenovo</a></p>
+                    <p> <a href=" #">Laptopuri Dell</a></p>
+                    <p><a href=" #">Laptopuri Acer</a></p>
+                    <p><a href=" #">Laptopuri HP</a></p>
+                    <p><a href=" #">Laptopuri ultraportabile</a></p>
+                    <p><a href=" #">Laptopuri gaming</a></p>
+                </div>
+                <div class="side_block5" onclick="afiseazaMeniuMobil5()">
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Branduri de Top</li>
+                        </ul></a>
+                    </h3>
+                    <p><a href=" #">Apple</a></p>
+                    <p><a href=" #">Samsung</a></p>
+                    <p><a href=" #">Huawei</a></p>
+                    <p><a href=" #">Acer</a></p>
+                    <p><a href=" #">Dell</a></p>
+                    <p><a href=" #">Lenovo</a></p>
+                    <p><a href=" #">Xiaomi</a></p>
+                </div>
+                <div class="side_block6" onclick="afiseazaMeniuMobil6()">
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Wearables & Gadgeturi</li>
+                        </ul></a>
+                    </h3>
+                    <p><a href=" #">Smartwatch</a></p>
+                    <p><a href=" #">Bratari fitness</a></p>
+                    <p><a href=" #">Kit Smart Home</a></p>
+                </div>
+                <div class="side_block7" onclick="afiseazaMeniuMobil7()">
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Accesorii Laptop</li>
+                        </ul></a>
+                    </h3>
+                    <p><a href=" #">Genti Laptop</a></p>
+                    <p><a href=" #">Coolere Laptop</a></p>
+                    <p><a href=" #">Hard disk-uri portabile</a></p>
+
+                </div>
+                <div class="side_block8" onclick="afiseazaMeniuMobil8()">
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Accesorii telefoane</li>
+                        </ul></a>
+                    </h3>
+                    <p><a href=" #">Huse telefoane</a></p>
+                    <p><a href=" #">Folii protectie telefoane</a></p>
+                    <p><a href=" #">Incarcatoare telefoane</a></p>
+                    <p><a href=" #">Casti audio</a></p>
+                </div>
+                <div class="side_block9" onclick="afiseazaMeniuMobil9()">
+                    <h3>
+                        <ul>
+                            <li><a href=" #">Telefoane resigilate</li>
+                        </ul></a>
+                    </h3>
+                    <p><a href=" #">telefoane apple</a></p>
+                    <p><a href=" #">Telefoane Samsung</a></p>
+                    <p><a href=" #">telefoane Huawei</a></p>
+                    <p><a href=" #">telefoane Nokia</a></p>
+                    <p><a href=" #">Telefoane Oppo</a></p>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="meniulateral">
+
+            <div class="openmenu" onmouseover="afiseaza()" onmouseout="ascunde()" onclick="afiseazaSideMenu()">
+                <ul>
+                    <li>Laptop,Tablete & Telefoane</li>
+                </ul>
+            </div>
+            <div class="openmenu1">
+                <ul>
+                    <li>Pc, Periferice & Software</li>
+                </ul>
+            </div>
+            <div class="openmenu2">
+                <ul>
+                    <li>TV, Audio-Video & Foto</li>
+                </ul>
+            </div>
+            <div class="openmenu3">
+                <ul>
+                    <li>Electrocasnice & Climatizare</li>
+                </ul>
+            </div>
+            <div class="openmenu4">
+                <ul>
+                    <li>Electrocasnice & Climatizare</li>
+                </ul>
+            </div>
+            <div class="openmenu5">
+                <ul>
+                    <li>Electrocasnice & Climatizare</li>
+                </ul>
+            </div>
+            <div class="openmenu6">
+                <ul>
+                    <li>Gaming, Carti & Birotica</li>
+                </ul>
+            </div>
+            <div class="openmenu7">
+                <ul>
+                    <li>Bacanie</li>
+                </ul>
+            </div>
+            <div class="openmenu8">
+                <ul>
+                    <li>Fashion</li>
+                </ul>
+            </div>
+            <div class="openmenu9">
+                <ul>
+                    <li>Ingrijire personala & Cosmetice</li>
+                </ul>
+            </div>
+            <div class="openmenu10">
+                <ul>
+                    <li>Casa, Gradina, Bricolaj</li>
+                </ul>
+            </div>
+            <div class="openmenu11">
+                <ul>
+                    <li>Sport & Activitati in aer liber</li>
+                </ul>
+            </div>
+            <div class="openmenu12">
+                <ul>
+                    <li>Auto, Moto & RCA</li>
+                </ul>
+            </div>
+            <div class="openmenu13">
+                <ul>
+                    <li>Jucarii, Copii & Bebe</li>
+                </ul>
+            </div>
+        </div>
+        <div class="side">
+            <div class="baner"><img src="../baner.jpg"></div>
+            <div class="sidemenu" onmouseover="afiseaza()" onmouseout="ascunde()">
+
+
+
+                <div class="sidemenu_block">
+
+                    <h3><a href=" #">Laptopuri si accesorii</a></h3>
+                    <p> <a href=" #">Laptopuri</a></p>
+                    <p> <a href=" #">Laptopuri cu Windows</a></p>
+                    <p> <a href=" #">Laptopuri Gaming</a></p>
+                </div>
+                <div class="sidemenu_block">
+                    <h3> <a href=" #">Telefoane mobile si accesorii</a></h3>
+                    <p> <a href=" #">Telefoane mobile</a></p>
+                    <p> <a href=" #">Apple Shop</a></p>
+                    <p> <a href=" #">Xiaomi Shop</a></p>
+                    <p> <a href=" #">Huawe Shop</a></p>
+                </div>
+
+                <div class="sidemenu_block">
+                    <h3> <a href=" #">Laptopuri resigilate</a></h3>
+                    <p> <a href=" #">Laptopuri Asus</a></p>
+                    <p> <a href=" #">Laptopuri Lenovo</a></p>
+                    <p> <a href=" #">Laptopuri Dell</a></p>
+                    <p><a href=" #">Laptopuri Acer</a></p>
+                    <p><a href=" #">Laptopuri HP</a></p>
+                    <p><a href=" #">Laptopuri ultraportabile</a></p>
+                    <p><a href=" #">Laptopuri gaming</a></p>
+                </div>
+                <div class="sidemenu_block">
+                    <h3><a href=" #">Branduri de Top</a></h3>
+                    <p><a href=" #">Apple</a></p>
+                    <p><a href=" #">Samsung</a></p>
+                    <p><a href=" #">Huawei</a></p>
+                    <p><a href=" #">Acer</a></p>
+                    <p><a href=" #">Dell</a></p>
+                    <p><a href=" #">Lenovo</a></p>
+                    <p><a href=" #">Xiaomi</a></p>
+                </div>
+                <div class="sidemenu_block">
+                    <h3><a href=" #">Wearables & Gadgeturi</a></h3>
+                    <p><a href=" #">Smartwatch</a></p>
+                    <p><a href=" #">Bratari fitness</a></p>
+                    <p><a href=" #">Kit Smart Home</a></p>
+                </div>
+                <div class="sidemenu_block">
+                    <h3><a href=" #">Accesorii Laptop</a></h3>
+                    <p><a href=" #">Genti Laptop</a></p>
+                    <p><a href=" #">Coolere Laptop</a></p>
+                    <p><a href=" #">Hard disk-uri portabile</a></p>
+
+                </div>
+                <div class="sidemenu_block">
+                    <h3><a href=" #">Accesorii telefoane</a></h3>
+                    <p><a href=" #">Huse telefoane</a></p>
+                    <p><a href=" #">Folii protectie telefoane</a></p>
+                    <p><a href=" #">Incarcatoare telefoane</a></p>
+                    <p><a href=" #">Casti audio</a></p>
+                </div>
+                <div class="sidemenu_block">
+                    <h3><a href=" #">Telefoane resigilate</a></h3>
+                    <p><a href=" #">telefoane apple</a></p>
+                    <p><a href=" #">Telefoane Samsung</a></p>
+                    <p><a href=" #">telefoane Huawei</a></p>
+                    <p><a href=" #">telefoane Nokia</a></p>
+                    <p><a href=" #">Telefoane Oppo</a></p>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        <div class="testimionial"> 
+
+            <div class="testimionial-user">
+                <img src="../1.jpg">
+                <h3> Ce spun clientii</h3>
+                <button class="but">Detalii</button>
+                <p class="descriere">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat iste tempora
+                    fugit suscipit autem,
+                    dolorum odio dignissimos
+                    blanditiis ipsam in nostrum quo laborum obcaecati amet consectetur officiis adipisci pariatur ab.
+                </p>
+
+
+
+            </div>
+            <div class="testimionial-user">
+                <img src="../2.jpg">
+                <h3> Ce spun clientii</h3>
+                <button class="but">Detalii</button>
+                <p class="descriere">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat iste tempora
+                    fugit suscipit autem,
+                    dolorum odio dignissimos
+                    blanditiis ipsam in nostrum quo laborum obcaecati amet consectetur officiis adipisci pariatur ab.
+                </p>
+
+
+            </div>
+            <div class="testimionial-user">
+                <img src="../4.jpg">
+                <h3> Ce spun clientii</h3>
+                <button class="but">Detalii</button>
+                <p class="descriere">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat iste tempora
+                    fugit suscipit autem,
+                    dolorum odio dignissimos
+                    blanditiis ipsam in nostrum quo laborum obcaecati amet consectetur officiis adipisci pariatur ab.
+                </p>
+
+
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="galerie-imagini">
+            <h3> Produse Office</h3>
+            <div class="galerie-office">
+
+            </div>
+            <h3> Telefoane Smart</h3>
+            <div class="galerie-telefoane">
+
+
+            </div>
+            <h3> Laptopuri</h3>
+            <div class="galerie-laptop">
+
+
+            </div>
+            <h3> Boxe Laptop</h3>
+            <div class="galerie-boxe">
+
+
+            </div>
+        </div>
+        <footer>
+            <p>Creat de Cimpan Cristian</p>
+
+        </footer>
+
+    </main>
+
+    </div>
+</body>
+
+</html>
